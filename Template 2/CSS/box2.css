@@ -1,0 +1,21 @@
+ .box2{
+     /* border: 2px solid black; */
+     width: 80%;
+     height: 150px;
+     margin: 5px auto;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .card1{
+     /* border: 2px solid black; */
+     width: 25%;
+     box-sizing: border-box;
+     margin: 5px;
+     color: #16df7e;
+     text-align: center;
+ }
+
+ .card1 h1{
+     margin-top: 40px;
+ }

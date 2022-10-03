@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    border: 2px solid brown;
+    margin-top: 3px;
+    background-color: rgb(233, 166, 166);
+    border-radius: 15px;
+}
+
+.left{    
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    /* left: 10px; */
+    top: 10px;
+    margin-left: 50px;
+}
+
+.mid{
+    /* border: 2px solid black; */
+    width: 33%;
+    margin: 10px auto;
+}
+
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 27px;
+    color: black;
+}
+.right{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    /* border-radius: 10px; */
+    /* padding: 2px; */
+}
+
+.right input{
+    border: 2px solid black;
+    border-radius: 15px; 
+    padding: 4px;
+    margin-right: 35px;
+}
+
+
+.box{
+    /* border: 2px solid black; */
+    height: 310px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.textBox{
+    /* border: 2px solid red; */
+    display: inline-block;
+    height: 128px;
+    width: 34%;
+    padding: 87px;
+}
+
+.imageBox{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    height: 300px;
+    width: 48%;
+    float: right;
+}
+.imageBox img{
+    /* margin-left: 23px; */
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: rgb(62, 214, 62);
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: rgb(37, 37, 231);
+}
+
+.card{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 10px;
+    width: 31%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(214, 214, 214);
+}
+
+.box1{
+    /* border: 2px solid black; */
+    height: 180px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.textBox1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    height: 128px;
+    width: 34%;
+    padding: 87px;
+    float: right;
+}
+
+.imageBox1{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    height: 300px;
+    width: 48%;
+}
+.imageBox1 img{
+    /* margin-left: 23px; */
+}
+
+.card1{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 46px 10px;
+    width: 23%;
+    /* padding: 16px 85px; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card1 h1{
+    color: rgb(72, 199, 72);
+}
+
+/* .box2{
+    border: 2px solid black;
+    height: 180px;
+    width: 90%;
+    margin: 5px auto;
+} */
+
+.box3{
+    /* border: 2px solid black; */
+    height: 765px;
+    width: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+
+.inBox3{
+    margin-top: 75px;
+    padding-top: 125px;
+}
+.box4{
+    /* border: 2px solid black; */
+    height: 705px;
+    width: 90%;
+    margin: 60px auto;
+}
+
+.card2{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 10px 12px;
+    width: 31%;
+    padding: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+
+.card2 h3{
+    margin: 15px;
+    
+}
+
+.box6{
+    /* border: 2px solid black; */
+    height: 540px;
+    width: 90%;
+    margin: 35px auto;
+    padding-top: 15px;
+}
+
+.box5{
+    /* border: 2px solid black; */
+    height: 765px;
+    width: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: rgb(241, 236, 236); */
+}
+.information{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    margin-right: 15px;
+    height: 515px;
+    background-color: rgb(214, 214, 214);
+}
+
+.form{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    width: 50%;
+     height: 515px;
+     margin-right: 45px;
+     float: right;
+     background-color: rgb(214, 214, 214);
+}
+
+.information h3{
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.information p{
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+.information iframe{
+    width: 430px;
+    height: 280px;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+/* #name{
+    float: left;;
+    margin-left: 15px;
+    margin-top: 40px;
+    height: 30px;
+    width: 205px;
+    /* display: inline-block; */
+/* }  */
+
+.name{
+    display: inline-block;
+    float: left;
+    margin-left: 65px;
+    margin-top: 50px;
+    /* height: 30px;
+    width: 205px; */
+    /* display: inline-block; */
+}
+
+/* #email{
+    float: right;;
+    margin-right: -261px;
+    margin-top: 40px;
+    height: 30px;
+    width: 205px;
+} */
+
+.email{
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+    /* height: 30px;
+    width: 205px; */
+    /* display: inline-block; */
+}
+
+.subject{
+    display: inline-block;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+    
+    /* display: inline-block; */
+}
+
+.message{
+    display: inline-block;
+    float: left;
+    margin-left: -180px;
+    margin-top: 120px;
+}
+.name input{
+    height: 30px;
+    width: 205px;
+}
+.email input{
+    height: 30px;
+    width: 205px;
+}
+.subject input{
+    height: 30px;
+    width: 205px;
+}
+.message input{
+    height: 30px;
+    width: 205px;
+}
+
+.name label{
+    margin-left: -47px;
+}
+
+.email label{
+    margin-left: -47px;
+}
+
+.subject label{
+    margin-left: -47px;
+}
+
+.message label{
+    margin-left: -585px;
+}

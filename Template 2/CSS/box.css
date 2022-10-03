@@ -1,0 +1,44 @@
+
+.box{
+    /* border: 2px solid black; */
+    /* margin: 10PX 30PX; */
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+
+.box-items{
+    /* border: 2px solid black; */
+    /* background-color: aqua; */
+    margin: 5px;
+    width: 50%;
+    /* display: flex; */
+}
+
+.text{
+    /* text-align: center; */
+    padding: 105px 10px;
+}
+
+.text h1{
+    margin-top: 20px;
+}
+.text p{
+    margin-top: 20px;
+}
+
+.text button{
+    margin-top: 35px;
+    height: 43px;
+    width: 180px;
+    font-size: large;
+    background-color: #16df7e;
+    border-radius: 5px;
+    border: 2px solid #16df7e;
+    color: white;
+}
+
+.text button:hover{
+    background-color: #206bfb;
+}
